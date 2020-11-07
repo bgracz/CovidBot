@@ -1,0 +1,27 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^4.0.0",
+    "bruhapi": "^1.0.2",
+    "everyday-fun": "^1.1.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "random-facts": "^1.0.6",
+    "random-meow": "^3.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "twit": "^2.2.11",
+    "wikifakt": "^1.0.3"
+  }
+}
