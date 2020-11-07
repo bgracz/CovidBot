@@ -4,7 +4,7 @@ var fs = require('fs');
 const fetch = require("node-fetch");
 var T = new Twit(config);
 
-setInterval(tweeter, 60*60*3*1000); //60*60 to godzina
+setInterval(tweeter, 60*29*1000); //60*60 to godzina
 
 tweeter();
 
