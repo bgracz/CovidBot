@@ -13,6 +13,7 @@
     "@vitalets/google-translate-api": "^4.0.0",
     "bruhapi": "^1.0.2",
     "everyday-fun": "^1.1.0",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
     "node-fetch": "^2.6.1",
     "random-facts": "^1.0.6",
