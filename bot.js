@@ -1,4 +1,6 @@
 const PORT = process.env.PORT || 5001;
+var express = require('express');
+var app = express();
 var Twit = require('twit');
 var config = require('./config.js');
 var fs = require('fs');
