@@ -38,7 +38,7 @@ function tweeter() {
     var nowychZmarlo = obj.Countries[135].NewDeaths.toLocaleString();
     var ostatniaAktualizacja = obj.Countries[135].Date;
 
-    var dataForTweet = ("Chorych: " + laczniePrzypadkow + " (+ " + nowychPrzypadkow + "). \nWyzdrowialo: " + lacznieWyzdrowialo + " (+ " + nowychWyzdrowialo +"). \nZmarlo: " + lacznieZmarlo + " (+ " + nowychZmarlo + "). \n\nDane z " + ostatniaAktualizacja.substring(0,10) + " " + ostatniaAktualizacja.substring(11,16) + "\n#covid19 #sarscov2");
+    var dataForTweet = ("Chorych: " + laczniePrzypadkow + " (+ " + nowychPrzypadkow + "). \nWyzdrowialo: " + lacznieWyzdrowialo + " (+ " + nowychWyzdrowialo +"). \nZmarlo: " + lacznieZmarlo + " (+ " + nowychZmarlo + ").\n\n#covid19 #sarscov2");
     //console.log(dataForTweet);
 
     T.post('statuses/update', { status: dataForTweet }, function(err, data, response) {
