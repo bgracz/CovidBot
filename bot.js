@@ -1,10 +1,11 @@
-const app = require('express')();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5001;
 var Twit = require('twit');
 var config = require('./config.js');
 var fs = require('fs');
 const fetch = require("node-fetch");
 var T = new Twit(config);
+
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
 
 setInterval(tweeter, 60*29*1000); //60*60 to godzina
 
