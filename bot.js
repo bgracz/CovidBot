@@ -1,3 +1,5 @@
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 var Twit = require('twit');
 var config = require('./config.js');
 var fs = require('fs');
